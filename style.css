@@ -1,0 +1,30 @@
+body {
+  background-image: url('your-image-url');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0077cc;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #005ea3;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
